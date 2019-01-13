@@ -43,6 +43,7 @@ To start Parity Ethereum as a regular user using `systemd` init:
 
 1. Copy `./scripts/parity.service` to your
 `systemd` user directory (usually `~/.config/systemd/user`).
+2. Copy Parity to bin: `sudo cp -R ./target/release/parity /usr/bin/`
 2. To configure Parity Ethereum, write a `/etc/parity/config.toml` config file, see [Configuring Parity Ethereum](https://paritytech.github.io/wiki/Configuring-Parity) for details.
 
 
