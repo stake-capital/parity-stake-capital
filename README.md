@@ -9,6 +9,9 @@ sudo apt upgrade -y
 sudo apt install gcc git make libudev-dev cmake -y
 ```
 
+if you get errors: 
+`sudo apt install build-essential`
+
 ## Install rust 
 `curl https://sh.rustup.rs -sSf | sh`
 
