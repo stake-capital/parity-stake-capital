@@ -6,7 +6,7 @@ Everything Parity
 ```
 sudo apt update
 sudo apt upgrade -y
-sudo apt install gcc git make -y
+sudo apt install gcc git make -y libudev-dev
 ```
 
 ## Install rust 
