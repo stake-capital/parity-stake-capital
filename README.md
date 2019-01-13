@@ -3,9 +3,11 @@ Everything Parity
 
 # Ethereum Parity Client on Linux
 ## Update the system
-`sudo apt update`
-`sudo apt upgrade -y`
-`sudo apt install gcc git make -y`
+```
+sudo apt update
+sudo apt upgrade -y
+sudo apt install gcc git make -y
+```
 
 ## Install rust 
 `curl https://sh.rustup.rs -sSf | sh`
