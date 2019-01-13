@@ -18,7 +18,7 @@ sudo apt install gcc git make libudev-dev cmake -y
 $ git clone https://github.com/paritytech/parity-ethereum
 $ cd parity-ethereum
 
-# build in release mode
+# build in release mode or just cargo build if build from specific tag
 $ cargo build --release --features final
 ```
 
